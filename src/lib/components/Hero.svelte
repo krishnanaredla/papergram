@@ -1,6 +1,5 @@
 <script>
     import { onMount } from 'svelte'
-    import PaperCanvas from './PaperCanvas.svelte'
     import gsap from 'gsap'
     import { config } from '../config.js'
 
@@ -128,7 +127,6 @@
 </script>
 
 <section class="hero" bind:this={heroEl}>
-    <PaperCanvas />
 
     <div class="hero-content" class:visible>
         <div class="hero-tag">
